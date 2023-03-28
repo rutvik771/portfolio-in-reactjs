@@ -1,0 +1,51 @@
+#project{
+    background-color: #222629;
+    color: #CECFD2;
+    padding: 5rem 0rem 0rem;
+}
+#project .main-content{
+  display: flex;
+}
+#project .project-img{
+    height: 14rem;
+    width: 25rem;
+}
+#project .project-introduction{
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
+    width: 24rem;
+    border: none;
+    margin: 2rem 0rem;
+    background-color: #222629;
+    box-shadow: -5px -5px 15px 0px rgb(255 255 255 / 9%), 10px 10px 15px 0px rgb(0 0 0 / 60%);
+    transition: all 500ms ease;
+    /* font-family: "Lato-regular"; */
+}
+#project .project-introduction:hover{
+    box-shadow: -10px -10px 15px 10px rgb(255 255 255 / 4%), 15px 15px 15px 10px rgb(0 0 0 / 40%);
+    transition: all 500ms ease;
+}
+#project .project-name{
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+#project .project-introduction:hover .project-name{
+    color: rgb(134, 194, 50,0.9);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+#project .view-project{
+    color: rgb(134, 194, 50,0.9);
+    font-family: lato-regular;
+}
+@media (max-width: 768px) {
+    #project .main-content{
+        flex-direction: column;
+      }
+}
+@media (max-width: 576px) {
+    #project .project-introduction{
+        width: 21rem;
+    }
+}

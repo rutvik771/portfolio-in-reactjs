@@ -1,0 +1,35 @@
+#contact {
+    background-color: #222629;
+    color: #CECFD2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8rem;
+}
+#contact .contact-container{
+    color:#EDEDED ;
+    text-align: center;
+}
+#contact .hello-cta{
+    color: rgb(134, 194, 50);
+    background-color: transparent;
+    border: 1px solid #86c232;
+    border-radius: 8px;
+    padding: 1.25rem 1.75rem;
+    font-family: lato-bold;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+#contact .hello-cta:hover{
+    background-color: rgba(134, 194, 50,0.1);
+    outline: none;
+}
+#contact .social-media-icons{
+ display: flex;
+ justify-content: center;
+ font-size: 1.8rem;
+ color:#EDEDED ;
+ margin: 1.5rem 0rem;
+}

@@ -1,0 +1,96 @@
+#work {
+  background-color: #222629;
+  color: #CECFD2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#work .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem;
+  }
+#work .btn-list {
+  display: flex;
+  flex-direction: column;
+  color: #CECFD2;
+}
+#work .btn {
+  border-left: 3px solid rgb(188, 188, 188 , 0.2);
+  padding: 0.9rem 1rem;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+#work .btn:hover {
+  background-color: rgb(97, 137, 47,0.1);
+  color: #61892F;
+}
+#work .active-btn {
+  border-left: 3px solid #61892F;
+  color: #61892F;
+  background-color: rgb(97, 137, 47,0.1);
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+#work .desiganation{
+width: 38rem;
+height: 15rem;
+padding: 1rem 0rem 1rem 2rem;
+transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+#work .desiganation-detail{
+ padding: 1rem 1.5rem 0rem;
+}
+#work .desiganation-detail ul{
+  list-style-type: disc;
+  color: rgb(233, 232, 232 ,0.6);
+}
+
+@media (max-width: 786px) {
+  #work .main-content {
+    display: inline;
+    padding: 1rem 2rem;
+  }
+  #work .btn-list {
+    display: block;
+    color: #CECFD2;
+    margin: 1.5rem 0rem;
+  }
+  #work .btn {
+    border-bottom: 3px solid rgb(188, 188, 188 , 0.2);
+    border-left: none;
+    padding: 0.9rem 2.5rem;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  }
+  #work .active-btn {
+    border-left: none;
+    border-bottom: 3px solid #61892F;
+    color: #61892F;
+    background-color: rgb(97, 137, 47,0.1);
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  }
+  #work .desiganation{
+    width: auto;
+    max-width: 38rem;
+    padding: 1rem 0rem 1rem 0rem;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    }
+}
+
+@media (max-width: 576px) {
+  #work .btn {
+    border-bottom: 3px solid rgb(188, 188, 188 , 0.2);
+    border-left: none;
+    padding: 0.7rem 1.2rem;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  }
+
+  #work .active-btn {
+    border-left: none;
+    border-bottom: 3px solid #61892F;
+    color: #61892F;
+    background-color: rgb(97, 137, 47,0.1);
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  }
+}

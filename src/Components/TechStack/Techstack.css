@@ -1,0 +1,39 @@
+#techstack{
+    background-color: #222629;
+    color: #CECFD2;
+}
+#techstack .tech-container{
+   padding: 3rem 10rem;
+}
+
+
+#techstack .tech-box{
+    width: 190px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,.15);
+    border-radius: 22px;
+    margin: 1.5rem;
+}
+
+#techstack .stack-img{
+   height: 7rem;
+ }
+
+ @media (max-width: 576px) {
+    #techstack .tech-container{
+        padding: 3rem 0rem;
+     } 
+     #techstack .tech-box{
+        width: 170px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255,255,255,.15);
+        border-radius: 22px;
+        margin: 1rem 0.8rem;
+    }
+ }
